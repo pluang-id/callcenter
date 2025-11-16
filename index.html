@@ -2,16 +2,25 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
     <title>Hubungi Kami - Pluang</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17732249430"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-17732249430');
+    </script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff;
-            color: #333;
-            overflow-x: hidden;
+            background-color: #f4f4f4;
         }
         .container {
             width: 90%;
@@ -87,34 +96,31 @@
             color: #333;
             cursor: pointer;
         }
-        .container {
-            width: 90%;
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 0 10px;
-        }
-        
-        .contact-method {
+        .call-center {
             background-color: #f9f9f9;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
             border-radius: 8px;
+            border: 1px solid #ddd;
         }
-        .contact-method h2 {
-            font-size: 1.3em;
+        .call-center h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .call-center p {
             margin-bottom: 10px;
         }
-        .contact-method p {
-            font-size: 0.9em;
-            line-height: 1.5;
-        }
-        .contact-method a {
-            color: #7952B3;
+        .call-center a {
+            color: #007bff;
             text-decoration: none;
         }
-        .contact-method img {
-            width: 40px;
-            margin-bottom: 10px;
+        .call-center a:hover {
+            text-decoration: underline;
+        }
+        .menu-icon {
+            font-size: 24px;
+            color: #333;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -126,32 +132,19 @@
                 <a href="#">Trading di Web</a>
                 <span class="menu-icon">&#9776;</span>
             </div>
-        </div>        
-    </div>
-    
-    <div class="container">
-        <h1></h1>
+        </div>
+        <!-- Tulisan "Hubungi Kami" diletakkan di sini -->
         <h2>Hubungi Kami</h2>
-        <p style="text-align: left;">Butuh bantuan atau ada saran untuk kami? Silakan hubungi kami melalui saluran komunikasi berikut:</p>        
-        <div class="contact-method">
-            <img src="callcenter-icon.png" alt="Ikon" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-            <span style="display: inline-block; vertical-align: middle;"><h2>Call Center</h2></span>
+        <p>Butuh bantuan atau ada saran untuk kami? Silakan hubungi kami melalui saluran komunikasi berikut:</p>
+        <div class="call-center">
+            <h2>Call Center</h2>
             <p>Hubungi Pluang Care di nomor (083) 838 8331 168 (Senin-Jumat pada 09.00-18.00 WIB, kecuali hari libur).</p>
-            <a href="tel:+628388331168">Telepon →</a>
+            <a href="tel:+628388331168">Telepon &rarr;</a>
         </div>
-
         <div class="contact-method">
-            <img src="livechat-icon.png" alt="Ikon" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-            <span style="display: inline-block; vertical-align: middle;"><h2>WhatsApp (24/7)</h2></span>                       
+            <h2>Chat WhatsApp (24/7)</h2>
             <p>Interaksi langsung dengan live agent Pluang Care melalui Live Chat di aplikasi Pluang.</p>
-            <a href="https://wa.me/628388331168">Live Chat →</a>
-        </div>
-
-        <div class="contact-method">
-            <img src="email-icon.png" alt="Ikon" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
-            <span style="display: inline-block; vertical-align: middle;"><h2>Email (24/7)</h2></span>
-            <p>Email Pluang Care di <a href="mailto: customerserviceonline726@gmail.com">tanya@pluang.com</a> untuk informasi lebih lanjut tentang produk atau layanan Pluang.</p>
-            <a href="mailto: customerserviceonline726@gmail.com">Email →</a>
+            <a href="">Live Chat &rarr;</a>
         </div>
     </div>
 </body>
